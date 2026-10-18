@@ -4,4 +4,5 @@
 
 每个想法单独放在 `/home/box/agent-data/digital-products/<idea-slug>/` 目录下，并用 `PROGRESS.md` 记录进度，方便中断后继续。
 
-详见根目录 `SKILL.md`。
+- 主流程：根目录 [`SKILL.md`](./SKILL.md)（product-creator）
+- 第 7 步（Send traffic）委托 companion skill [`building-distribution/SKILL.md`](./building-distribution/SKILL.md)（基于 Ryan [Distribution 101](https://x.com/ryangrowthh/status/2111080389565640897)）
