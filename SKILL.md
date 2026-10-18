@@ -8,7 +8,7 @@ description: >-
 ---
 # product-creator
 
-Based on Hussain Ibarra, [How to build a profitable digital product (in 7 steps)](https://x.com/HussainIbarra/article/2108563595676299429) (status: https://x.com/HussainIbarra/status/2108563595676299429). Keep this source URL in every product folder’s `SOURCE.md`.
+Based on Hussain Ibarra, [How to build a profitable digital product (in 7 steps)](https://x.com/HussainIbarra/article/2108563595676299429) (status: https://x.com/HussainIbarra/status/2108563595676299429). Keep this source URL in every product folder’s `SOURCE.md`. Step 7 (traffic) is guided by the companion skill `building-distribution` (source: [Ryan, Distribution 101](https://x.com/ryangrowthh/status/2111080389565640897)); also list that URL in `SOURCE.md`.
 
 Guide the user one step at a time. They bring the idea; you run the process, write artifacts into the folder, and advance progress only after they confirm that step’s output.
 
@@ -153,11 +153,15 @@ Gate to step 7: draft page the user accepts as “good enough to put live.”
 ### 7. Send traffic → `07-traffic.md`
 Goal: people will not find the product by themselves. Traffic is the lever when revenue is low—often without changing the offer.
 
-Two levers:
+Two levers from the source article:
 1. Increase promotion frequency (what you sell, what to do, how to buy, when).
 2. Create more content so promos are a smaller share of posts (more content = more room to sell without feeling spammy).
 
-Capture a simple weekly plan: content cadence, promo slots, where the link lives, and a rough click → conversion sanity check.
+**Distribution guidance: run the `building-distribution` skill** (based on Ryan, [Distribution 101: A Guide to Reaching Millions](https://x.com/ryangrowthh/status/2111080389565640897)). Read `/home/box/agent-data/workflows/building-distribution/SKILL.md` and follow it, using this product's folder as input and output:
+
+- Inputs: `02-dream-customer.md` (who and where they hang out), `03-promise.md` (the macro belief to tell), `04-curriculum.md` / `05-case-study.md` (chapters and proof stories), `IDEA.md` and `PROGRESS.md` (idea-specific constraints, e.g. a platform that must stay sharing-only).
+- Sub-steps, one per turn, user confirms each: (a) story brief: macro picture, end goal, reverse-engineered chapters, voice; (b) vehicle plan: 1–2 main channels across Rented / Owned / Earned; (c) packaging: hooks, titles, visuals; (d) formatting: platform-native and scannable; (e) weekly rhythm plus growth habits.
+- Write the result into `07-traffic.md` (keep the sections: Story brief, Vehicle plan, Packaging, Formatting, Weekly rhythm, Growth actions) and include a simple weekly plan: content cadence, promo slots, where the link lives, rough click → conversion sanity check.
 
 Gate to done: traffic plan written; set `PROGRESS.md` status to `done` (or `in_progress` if they want ongoing weekly iteration—then `next_action` is the next promo/content block).
 
